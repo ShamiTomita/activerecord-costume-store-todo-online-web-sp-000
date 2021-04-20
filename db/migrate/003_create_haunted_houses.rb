@@ -11,4 +11,6 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.1]
       t.datetime :closing_date 
       t.string :long_description
     end 
-  end# Create your haunted_houses migration here
+  end
+  
+end # Create your haunted_houses migration here
